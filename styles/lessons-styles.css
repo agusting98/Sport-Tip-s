@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf"), format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url("../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf"), format('truetype');
+}
+
+.container {
+    padding: 60px;
+    display: grid;
+    z-index: 0;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+
+button{
+    height: 50px;
+    background-color: blue;
+    opacity: 0.6;
+    border: none;
+    margin: 10px;
+    color: white;
+    text-align: left;
+    font-family: 'Oswald';
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-section {
+    display: none; /* Inicialmente oculto */
+    margin-top: 10px;
+    animation: Transition 2s;
+}
+
+.textarea h2{
+    padding-top: 10px;
+}
+
+.textarea h3{
+    padding-top: 20px;
+}
+
+.textarea p{
+    padding-top: 60px;
+}
+
+.unidad {
+    margin-bottom: 10px;
+}
+
+h2{
+    color: white;
+    font-family: 'Oswald';
+}
+
+h3{
+    color: white;
+    font-family: 'Oswald';
+}
+
+nav{  
+    position: fixed; /* Mantiene el nav fijo en la parte inferior */
+    bottom: 0; /* Coloca el nav en la parte inferior */
+    left: 0;
+    width: 100%;
+    background-color: rgb(13, 1, 36);
+    color: white;
+    padding: 10px;
+    z-index: 1000; /* Mantiene el nav sobre otros elementos */
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: -80px;
+    list-style: none;
+}
+
+.ico-arrow{
+    background-image: url(../assets/images/lessons/arrow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+}
+
+.ico-arrow:hover{
+    animation: rotate 1s;
+}

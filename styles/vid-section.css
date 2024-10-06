@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf"), format('truetype');
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url("../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf"), format('truetype');
+}
+
+section{
+    align-items: baseline;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Bebas';
+    font-size: 50px;
+    font-weight: 50;
+    color: white;
+    margin-top: 10px;
+}
+
+p{
+    font-family: 'Oswald';
+    font-size: 15.6px;
+    font-weight: 50;
+    color: white;
+    margin-top: -70px;
+}
+
+.panelvid{
+    width: 300px;
+    height: 300px;
+    margin-top: -100px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.ulvid{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin-right: -46px;
+}
+
+.avid{
+    width: 80px;
+    height: 80px;
+    margin: 6px;
+    border-radius: 200px;
+    background-color: rgb(222, 222, 222);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ico1{
+    background-image: url('../assets/images/videos/soccer.png');
+}
+
+#ico2{
+    background-image: url('../assets/images/videos/volley.png');
+}
+
+#ico3{
+    background-image: url('../assets/images/videos/basket.png');
+}
+
+#ico4{
+    background-image: url('../assets/images/videos/baseboll.png');
+}
+
+#ico5{
+    background-image: url('../assets/images/videos/tenis.png');
+}
+
+#ico6{
+    background-image: url('../assets/images/videos/golf.png');
+}
+
+
+
+
+

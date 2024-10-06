@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf"), format('truetype');
+}
+
+@font-face {
+    font-family: 'Chakra';
+    src: url("../assets/fonts/ZCOOLKuaiLe-Regular.ttf"), format('truetype');
+}
+
+
+nav{  
+    position: fixed; /* Mantiene el nav fijo en la parte inferior */
+    bottom: 0; /* Coloca el nav en la parte inferior */
+    left: 0;
+    width: 100%;
+    background-color: rgb(22, 0, 89);
+    opacity: 0.8;
+    color: white;
+    padding: 10px;
+    z-index: 1000; /* Mantiene el nav sobre otros elementos */
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-left: -80px;
+    list-style: none;
+}
+
+li{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: invert(1);
+    transition: 1s;
+}
+
+li:hover{
+    width: 60px;
+    height: 60px;
+    transition: 1s;
+}
+
+#img1{
+    background-image: url('../assets/images/global/homesection.png');
+}
+
+#img2{
+    background-image: url('../assets/images/global/lessonsection.png');
+}
+
+#img3{
+    background-image: url('../assets/images/global/videossection.png');
+}
+
+#img4{
+    background-image: url('../assets/images/global/acercadesection.png');
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../assets/images/global/background.gif');
+}
+
+section{
+    height: 800px;
+    display: grid;
+    align-items: center;
+}
+
+article{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
+    margin-left: 70px;
+    background-image: url('../assets/images/home/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(75deg);
+}
+
+h1{
+    font-family: 'Chakra';
+    font-size: 60px;
+    font-weight: 50;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+p{
+    font-family: 'Bebas';
+    font-size: 15.6px;
+    font-weight: 50;
+    color: rgb(255, 255, 255);
+    margin-top: -60px;
+}
+
