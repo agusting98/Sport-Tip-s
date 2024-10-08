@@ -9,6 +9,7 @@
 }
 
 .container {
+    margin-top: -60px;
     padding: 60px;
     display: grid;
     z-index: 0;
